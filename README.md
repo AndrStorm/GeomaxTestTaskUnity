@@ -12,17 +12,21 @@ Moving diagonally should occur at the same speed as moving in a straight line. M
 and there should be no delays or input lags. The movement speed must be configurable. \
 The camera should smoothly follow the character in such a way that the character himself remains in the center. \
 Walls can be of any shape, ranging from any polygonal grids to a variety of primitives. \
+
 Obstacles and a character must be present on the test stage.
 
 # Test task - Upgrading system
 It is necessary to implement a simple pumping system with several parameters with a simple currency system. \
 It is necessary to generalize the entire system so that it is easy to create new parameters for pumping. \
-Currency is a simple value that is displayed on the interface as a number. The amount of currency increases when receiving \
-a reward, if it is described in another block of the test task, otherwise the amount of currency increases every second by a certain fixed amount. \
+Currency is a simple value that is displayed on the interface as a number. \
+The amount of currency increases when receiving a reward, if it is described in another block of the \
+test task, otherwise the amount of currency increases every second by a certain fixed amount. \
 Pumping consists of several different parameters, the pumping of which is somehow displayed in the world. \
-All parameters are displayed on the screen as the value of the pumping level (a number) and a button next to it, when pressed, \
-the pumping level of this parameter increases by one. For example: a character moves faster when leveling up, \
-jumps higher when leveling up, the structure has more health/ does something faster, etc. \
+All parameters are displayed on the screen as the value of the pumping level (a number) and a button \
+next to it, when pressed, the pumping level of this parameter increases by one. \
+For example: a character moves faster when leveling up, jumps higher when leveling up, \
+the structure has more health/ does something faster, etc. \
+
 The test scene should contain a demonstration of the pumping system with noticeable changes after the pumping itself.
 
 ### Result
