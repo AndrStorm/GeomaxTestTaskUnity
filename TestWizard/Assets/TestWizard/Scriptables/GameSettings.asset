@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: Assembly-CSharp::GameSettings
+  playerMovementSettings:
+    _moveSpeed: 5
+  _cameraSettings:
+    _cinemachineCameraPrefab: {fileID: 8295110456416267031, guid: 2d5c9134b2773624e877ea6da80a5dd1, type: 3}
+    _cameraTargetPrefab: {fileID: 2184489782716536633, guid: b7f084d7f0b683044bd113374c024b8b, type: 3}
+  _gameplaySettings:
+    _secondsToGetMoney: 2
+    _moneyAmountPerTick: 10
